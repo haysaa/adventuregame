@@ -76,6 +76,10 @@ public class Player {
                     location = new Cave(this);
                     break;
                 case 4:
+                    location = new Forest(this);
+                    break;
+             
+                case 5:
                     location = new River(this);
                     break;
                 default:
